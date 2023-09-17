@@ -1,15 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-function App() {
+import Nav from "./views/Nav";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>hello world with react hook</h1>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <div>hello world with react hook</div>
+        </header>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
