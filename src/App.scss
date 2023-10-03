@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color:  #282c34;
+  background-color: #282c34;
   min-height: 100vh;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -34,4 +34,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+table {
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddda7;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody:nth-child(even) {
+  background-color: #dddddd9c;
+}
+.loading {
+  text-align: center;
 }
